@@ -5,4 +5,6 @@ db.resumoProdutos.insertOne({
 
 db.resumoProdutos.find({}, {
   _id: 0,
+  franquia: 1,
+  totalProdutos: 1,
 });
